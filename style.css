@@ -1,27 +1,17 @@
-.sun {
-    background: blue;
-}
-
-.clouds {
-    background: blue;
-}
-
-.rain {
-    background: blue;
-}
-
-div {
-    margin: 0 10px;
-    width: 200px;
-    height: 400px;
-    color: cornsilk;
-    text-align: center;
-    padding-top: 70px;
-    display: inline-block;
-
-}
-
 body {
-    width: 50%;
+    background: blueviolet;
+}
+
+
+p {
+    width: 260px;
+    height: 200px;
+    background: cornsilk;
     margin: auto;
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-left: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+
 }
