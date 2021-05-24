@@ -1,17 +1,26 @@
 body {
-    background: blueviolet;
+    background: rgb(2, 2, 80);
+    padding-top: 30px;
 }
 
-
-p {
-    width: 260px;
-    height: 200px;
-    background: cornsilk;
+div {
+    width: 900px;
+    height: 550px;
     margin: auto;
+    background: rgb(37, 4, 156);
+    box-shadow: 7px 7px 7px 3px rgba(0,0,0,0.5);
+    color: rgb(101, 101, 248); 
+    text-align: center;
     padding-top: 30px;
-    padding-right: 25px;
-    padding-left: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
 
+input {
+    background: rgb(2, 2, 80);
+    color: white;
+    
+}
+
+textarea {
+    background: rgb(2, 2, 80);
+    color: white;
 }
