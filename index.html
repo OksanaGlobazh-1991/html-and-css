@@ -11,23 +11,12 @@
 
     <form>
 
-        <div>
-            <p><b>Имя</b>
-                <input type="text" size="70" name="firstname">
-            </p>
-            <p><b>Фамилия</b>
-                <input type="text" size="70" name="lastname">
-            </p>
-            <p><b>Email</b>
-                <input type="text" size="70">
-            </p>
-            <p><b>Сообщение</b>
-                <!-- <textarea name="massage" rows="10" cols="30"> -->
-            </p>
-            <p>
-                <input type="submit" value="Отправить">
-            </p>
-        </div>
+        <div class="row"><label>Имя</label><input name="firstname"></div>
+        <div class="row"><label>Фамилия</label><input name="lastname"></div>
+        <div class="row"><label>Email</label><input type="email" name="email"></div>
+        <div class="row"><label>Сообщение</label><textarea name="msg"></textarea></div>       
+        <div><button>Отправить</button></div>
+               
     </form>
     
 </body>
