@@ -1,0 +1,45 @@
+body {
+    background: rgb(230, 218, 218);
+}
+
+.block {
+    background: wheat;
+}
+
+.block1 {
+    background: rgb(139, 136, 136);
+}
+
+.block1 h1 {
+    width: 150px;
+    background: brown;
+    text-align: center;
+    color: cornsilk;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.strong {
+    background: wheat;
+    
+}
+.strong ul {
+    
+    
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    
+}
+
+
+li {
+    display: inline;
+    border-bottom: 1px solid black;
+}
