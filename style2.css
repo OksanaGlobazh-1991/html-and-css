@@ -1,0 +1,19 @@
+ul {
+    background: purple;
+    padding: 10px 20px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: seashell;
+    padding-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
