@@ -1,0 +1,41 @@
+body {
+    background: rgb(230, 228, 228);
+}
+
+form {
+    background: honeydew;
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(182, 180, 180, 0.5);
+    border: 1px solid rgb(196, 194, 194);
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    margin: 15px;
+    border: 1px solid rgb(179, 177, 177);
+}
+
+.blue {
+    margin-right: 125px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.blue11 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+button {
+    width: 400px;
+    height: 30px;
+    background: chocolate;
+    margin-bottom: 40px;
+    border: none;
+}
