@@ -1,0 +1,36 @@
+.block {
+    background: #795548;
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.block h4 {
+    font-weight: normal;
+    color: yellow;
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+.block h4::before, .block h4::after {
+    content: '';
+    background: yellow;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.block h4::before {
+    right: 10px;
+    margin-left: -50%;
+}
+
+.block h4::after {
+    left: 10px;
+    margin-right: -50%;
+}
