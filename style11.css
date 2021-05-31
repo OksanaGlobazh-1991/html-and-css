@@ -12,3 +12,13 @@ position: absolute;
 left: 0; right: 0; top: 0; bottom: 0;
 background: rgba(0, 0, 0, 0.7);
 }
+
+.er404 {
+    color: #fff;
+    font-size: 8em;
+    text-align: center;
+    position: relative; 
+    z-index: 2; 
+    /* иначе цвет цифер будет цвета тени  */
+    margin-top: 200px;
+}
