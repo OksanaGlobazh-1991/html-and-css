@@ -1,0 +1,22 @@
+div {
+    display: inline;
+    position: absolute;
+}
+
+.one {
+    left: 50%;
+    top: 50px;
+    transform: rotate(170deg);
+}
+
+.two {
+    left: 52%;
+    top: 50px;
+    transform: rotate(185deg);
+}
+
+.three {
+    left: 54%;
+    top: 50px;
+    transform: rotate(200deg);
+}
