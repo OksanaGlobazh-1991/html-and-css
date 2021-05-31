@@ -1,22 +1,15 @@
-div {
-    display: inline;
+.cards {
     position: absolute;
-}
-
-.one {
     left: 50%;
     top: 50px;
-    transform: rotate(170deg);
+    transform-origin: 50% 100%;
 }
-
-.two {
-    left: 52%;
-    top: 50px;
-    transform: rotate(185deg);
+.card1 { 
+    transform: rotateZ(-15deg);
 }
-
-.three {
-    left: 54%;
-    top: 50px;
-    transform: rotate(200deg);
+.card3 {
+    transform: rotateZ(15deg);
+}
+.cards:hover {
+    z-index: 2;
 }
